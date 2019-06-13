@@ -2631,7 +2631,7 @@ input, select, textarea {
 		}
 
 			#footer .copyright a {
-				color: inherit;
+				color: white;
 			}
 
 			#footer .copyright li {
@@ -3321,4 +3321,8 @@ input, select, textarea {
 
 .center-menu {
 	text-align: center;
+}
+
+.footer-icon {
+	margin-top: 1em;
 }
