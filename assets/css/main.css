@@ -3317,3 +3317,8 @@ input, select, textarea {
 	.off-tilt {
 		margin-left: .5em;
 	}
+
+
+.center-menu {
+	text-align: center;
+}
