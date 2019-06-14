@@ -2619,7 +2619,7 @@ input, select, textarea {
 	#footer {
 		background: #E8EEF4;
 		color: #7c8081;
-		padding: 5em 5em 10em 5em;
+		padding: 5em 5em 5em 5em;
 		text-align: center;
 	}
 
@@ -3356,4 +3356,35 @@ input, select, textarea {
 
 .image {
 	height: 50vh;
+}
+
+.copyright {
+	margin-top: 15vh;
+}
+
+.menu-image-container {
+	width: 50%;
+	text-align: center;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 825px) {
+	.menu-image-container {
+		width: 75%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.menu-image-container {
+		width: 100%;
+		margin-left: 0;
+		padding-left: 0;
+	}
+
+	.wrapper.style4 {
+		background-size: 10em;
+		padding: 1em;
+	}
 }
