@@ -3350,6 +3350,6 @@ input, select, textarea {
 }
 
 .menu-images {
-	height: 50vh;
+	/* height: 50vh; */
 	width: 100%;
 }
