@@ -24,7 +24,7 @@
 		$window.on('load', function() {
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
-			}, 100);
+			}, 5);
 		});
 
 	// Scrolly.
@@ -98,7 +98,7 @@
 				.scrollex({
 					top:		'30vh',
 					bottom:		'30vh',
-					delay:		50,
+					delay:		30,
 					initialize:	function() { $(this).addClass('inactive'); },
 					terminate:	function() { $(this).removeClass('inactive'); },
 					enter:		function() { $(this).removeClass('inactive'); },

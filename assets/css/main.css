@@ -1852,7 +1852,6 @@ input, select, textarea {
 	}
 
 		.image:before {
-			background: url("images/overlay.png");
 			content: '';
 			height: 100%;
 			left: 0;
@@ -1967,7 +1966,6 @@ input, select, textarea {
 			cursor: default;
 			display: block;
 			margin: 0 0 1.5em 0;
-			opacity: 0.35;
 			text-align: center;
 		}
 
@@ -2505,7 +2503,7 @@ input, select, textarea {
 
 	#banner {
 		background-color: #645862;
-		 background-image: url("https://res.cloudinary.com/djubcegxh/image/upload/v1556938335/Food-Wallpaper-On-Wallpaper-Hd-6-1920x1200_hrprgs.jpg");
+		 background-image: url("https://res.cloudinary.com/djubcegxh/image/upload/v1560477323/home_img_gzc99f.jpg");
 	   /* Center and scale the image nicely */
 	   background-position: center;
 	   background-repeat: no-repeat;
@@ -2528,7 +2526,7 @@ input, select, textarea {
 			color: #fff;
 			display: inline-block;
 			opacity: 0;
-			padding: 3em;
+			padding: 3em 3em 1em 3em;
 			text-align: center;
 		}
 
@@ -2603,7 +2601,7 @@ input, select, textarea {
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"),  url("../../images/banner.jpg");
 		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -3325,4 +3323,33 @@ input, select, textarea {
 
 .footer-icon {
 	margin-top: 1em;
+}
+
+.jumbotron-logo {
+	width: 35%;
+}
+
+@media screen and (max-width: 825px) {
+	.jumbotron-logo {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.jumbotron-logo {
+		width: 100%;
+	}
+}
+
+#banner .inner {
+	/* border: 2px solid red; */
+}
+
+.color-icon {
+	color: #dd1021;
+}
+
+.menu-images {
+	height: 50vh;
+	width: 100%;
 }
